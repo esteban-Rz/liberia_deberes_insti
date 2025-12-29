@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <link rel="stylesheet" href="/css/stilo.css">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="barra" >
+        
+<nav class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://lenguajejs.com/dom/introduccion/que-es/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="/img/st,small,507x507-pad,600x600,f8f8f8 (1).webp" class="h-20" alt="Flowbite Logo" />
+        <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Cat DOM</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">DOM</a>
+        </li>
+        <li>
+          <a href="#caracteristicas" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">caracteristicas</a>
+        </li>
+        <li>
+          <a href="#objetivos" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">objetivos</a>
+        </li>
+        <li>
+          <a href="#utilidad" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">utilidad</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+    </div>
+    <div id="caracteristicas">
+        
+<h1 class="mb-4 text-4xl font-bold tracking-tight text-heading md:text-5xl lg:text-6xl"> CARACTERISTICAS DEL DOM</h1>
+<p class="mb-6 text-lg font-normal text-body lg:text-xl sm:px-16 xl:px-48">El DOM (Document Object Model) es una representación en forma de árbol de un documento HTML o XML que permite a los lenguajes de programación, como JavaScript, acceder y manipular su estructura, estilo y contenido dinámicamente.</p>
+<a href="https://www.youtube.com/watch?v=Jh-LUQMwtRk" class="inline-flex items-center text-red bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-base px-5 py-3 focus:outline-none">Mira el video</a>
+ <img src="/img/dom.webp" alt="imagen dom" class="w-20px">
+
+
+    </div>
+    <div id="objetivos">
+        
+<h2 class="mb-2 text-lg font-medium text-heading">OBJETIVOS DEL DOM:</h2>
+<ul class="max-w-md space-y-1 text-body list-disc list-inside">
+    <li>
+        Proporciona acceso a la página web
+
+    </li>
+    <li>
+        proporcionando propiedades y métodos para acceder a los objetos que componen esa ventana del navegador.
+    </li>
+    <li>
+        EJEMPLO:
+        getElementById(): proporciona acceso a un elemento conociendo su atributo id, teniendo en cuenta que no debe de existir más de un elemento con el mismo id en HTML. Es el modo más frecuente de acceder a un nodo concreto del DOM.
+        
+
+    </li>
+</ul>
+    <img src="/img/imagendom.webp" alt=" dom imagen" class="w-20px mx-10px">
+    </div>
+    
+    <div id="utilidad">
+        
+<h2 class="mb-2 text-lg font-medium text-heading">UTILIDAD EN EL DOM</h2>
+<ul class="max-w-md space-y-1 text-body list-disc list-inside">
+    <li>
+        El DOM (Document Object Model) es una herramienta fundamental en el desarrollo web que permite acceder y manipular los elementos de un documento HTML o XML de manera programática
+    </li>
+    <li>
+        Su principal utilidad radica en que transforma los elementos estáticos de una página web en nodos interactivos que pueden ser modificados en tiempo real mediante JavaScript
+    </li>
+    <li>
+        El DOM se organiza en una estructura jerárquica de nodos, similar a un árbol, donde cada elemento HTML se representa como un nodo, y las relaciones entre ellos (padre-hijo, hermanos) se definen mediante esta jerarquía.
+
+
+    </li>
+</ul>
+    <img src="/img/domclass.webp" alt=" dom imagen" class="max-w-md mt-8">
+    </div>
+    <div id="fod">
+        
+
+<footer class="bg-neutral-primary-soft rounded-base shadow-xs border border-default m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                <img src="https://flowbite.com/docs/images/logo.svg" class="h-7" alt="Flowbite Logo" />
+                <span class="text-heading self-center text-2xl font-semibold whitespace-nowrap">Flowbite</span>
+            </a>
+            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-body sm:mb-0">
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                </li>
+                <li>
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <hr class="my-6 border-default sm:mx-auto lg:my-8" />
+        <span class="block text-sm text-body sm:text-center">© 2023 <a href="https://flowbite.com/" class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+    </div>
+</footer>
+
+
+
+
+    </div>
+</body>
+</html>

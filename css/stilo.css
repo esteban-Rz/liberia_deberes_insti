@@ -1,0 +1,20 @@
+.barra{
+    padding: 60px;
+}
+#caracteristicas{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#objetivos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#utilidad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
