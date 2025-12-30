@@ -1,19 +1,21 @@
 .barra{
-    padding: 60px;
+    padding: 5px;
 }
 #caracteristicas{
-    padding: 60px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 #objetivos{
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 #utilidad {
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
